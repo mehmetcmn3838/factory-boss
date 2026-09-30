@@ -36,7 +36,7 @@ class _ShopScreenState extends State<ShopScreen> {
     final active = widget.controller.data.doubleIncomeUntil
             ?.isAfter(DateTime.now()) ??
         false;
-    return ColoredBox(
+    return Material(
       color: AppTheme.background,
       child: ListView(
         padding: const EdgeInsets.all(16),

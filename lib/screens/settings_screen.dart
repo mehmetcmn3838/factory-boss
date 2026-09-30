@@ -34,7 +34,7 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final data = controller.data;
-    return ColoredBox(
+    return Material(
       color: AppTheme.background,
       child: ListView(
         padding: const EdgeInsets.fromLTRB(12, 18, 12, 28),

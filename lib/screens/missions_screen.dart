@@ -123,7 +123,7 @@ class _PanelScaffold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ColoredBox(
+    return Material(
       color: AppTheme.background,
       child: Column(
         children: [
