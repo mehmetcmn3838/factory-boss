@@ -102,7 +102,6 @@ class _FactoryScreenState extends State<FactoryScreen>
     return AnimatedBuilder(
       animation: widget.controller,
       builder: (context, _) {
-        final data = widget.controller.data;
         return Scaffold(
           body: SafeArea(
             child: Column(

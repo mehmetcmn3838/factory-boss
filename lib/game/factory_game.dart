@@ -1,4 +1,3 @@
-import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
@@ -37,10 +36,10 @@ class FactoryGame extends FlameGame {
   }
 
   @override
-  void onGameResize(Vector2 canvasSize) {
-    super.onGameResize(canvasSize);
+  void onGameResize(Vector2 size) {
+    super.onGameResize(size);
     if (isLoaded) {
-      _layout(canvasSize);
+      _layout(size);
     }
   }
 
